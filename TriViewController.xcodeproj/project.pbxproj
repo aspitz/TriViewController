@@ -21,6 +21,11 @@
 		793E8172187C2F1E007A9F2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 793E8154187C2F1E007A9F2F /* UIKit.framework */; };
 		793E817A187C2F1E007A9F2F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 793E8178187C2F1E007A9F2F /* InfoPlist.strings */; };
 		793E817C187C2F1E007A9F2F /* TriViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 793E817B187C2F1E007A9F2F /* TriViewControllerTests.m */; };
+		793E8189187C2F53007A9F2F /* UIView+Constraints.m in Sources */ = {isa = PBXBuildFile; fileRef = 793E8186187C2F53007A9F2F /* UIView+Constraints.m */; };
+		793E818A187C2F53007A9F2F /* ZTriViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 793E8188187C2F53007A9F2F /* ZTriViewController.m */; };
+		793E818D187C2F99007A9F2F /* ZTriViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 793E8188187C2F53007A9F2F /* ZTriViewController.m */; };
+		793E818E187C2F9C007A9F2F /* UIView+Constraints.m in Sources */ = {isa = PBXBuildFile; fileRef = 793E8186187C2F53007A9F2F /* UIView+Constraints.m */; };
+		793E8191187C2FC5007A9F2F /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 793E8190187C2FC5007A9F2F /* AViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,12 @@
 		793E8177187C2F1E007A9F2F /* TriViewControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TriViewControllerTests-Info.plist"; sourceTree = "<group>"; };
 		793E8179187C2F1E007A9F2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		793E817B187C2F1E007A9F2F /* TriViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TriViewControllerTests.m; sourceTree = "<group>"; };
+		793E8185187C2F53007A9F2F /* UIView+Constraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Constraints.h"; sourceTree = "<group>"; };
+		793E8186187C2F53007A9F2F /* UIView+Constraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Constraints.m"; sourceTree = "<group>"; };
+		793E8187187C2F53007A9F2F /* ZTriViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTriViewController.h; sourceTree = "<group>"; };
+		793E8188187C2F53007A9F2F /* ZTriViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTriViewController.m; sourceTree = "<group>"; };
+		793E818F187C2FC5007A9F2F /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		793E8190187C2FC5007A9F2F /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +128,8 @@
 				793E8162187C2F1E007A9F2F /* Main.storyboard */,
 				793E8165187C2F1E007A9F2F /* ZViewController.h */,
 				793E8166187C2F1E007A9F2F /* ZViewController.m */,
+				793E818B187C2F5D007A9F2F /* Controller */,
+				793E818C187C2F6E007A9F2F /* Category */,
 				793E8168187C2F1E007A9F2F /* Images.xcassets */,
 				793E8157187C2F1E007A9F2F /* Supporting Files */,
 			);
@@ -150,6 +163,26 @@
 				793E8178187C2F1E007A9F2F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		793E818B187C2F5D007A9F2F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				793E8187187C2F53007A9F2F /* ZTriViewController.h */,
+				793E8188187C2F53007A9F2F /* ZTriViewController.m */,
+				793E818F187C2FC5007A9F2F /* AViewController.h */,
+				793E8190187C2FC5007A9F2F /* AViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		793E818C187C2F6E007A9F2F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				793E8185187C2F53007A9F2F /* UIView+Constraints.h */,
+				793E8186187C2F53007A9F2F /* UIView+Constraints.m */,
+			);
+			name = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,9 +283,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				793E8191187C2FC5007A9F2F /* AViewController.m in Sources */,
 				793E815D187C2F1E007A9F2F /* main.m in Sources */,
 				793E8167187C2F1E007A9F2F /* ZViewController.m in Sources */,
 				793E8161187C2F1E007A9F2F /* ZAppDelegate.m in Sources */,
+				793E818A187C2F53007A9F2F /* ZTriViewController.m in Sources */,
+				793E8189187C2F53007A9F2F /* UIView+Constraints.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +296,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				793E818E187C2F9C007A9F2F /* UIView+Constraints.m in Sources */,
 				793E817C187C2F1E007A9F2F /* TriViewControllerTests.m in Sources */,
+				793E818D187C2F99007A9F2F /* ZTriViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
