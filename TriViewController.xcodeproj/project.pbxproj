@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		793E8151187C2F1E007A9F2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 793E8150187C2F1E007A9F2F /* Foundation.framework */; };
+		793E8153187C2F1E007A9F2F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 793E8152187C2F1E007A9F2F /* CoreGraphics.framework */; };
+		793E8155187C2F1E007A9F2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 793E8154187C2F1E007A9F2F /* UIKit.framework */; };
+		793E815B187C2F1E007A9F2F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 793E8159187C2F1E007A9F2F /* InfoPlist.strings */; };
+		793E815D187C2F1E007A9F2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 793E815C187C2F1E007A9F2F /* main.m */; };
+		793E8161187C2F1E007A9F2F /* ZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 793E8160187C2F1E007A9F2F /* ZAppDelegate.m */; };
+		793E8164187C2F1E007A9F2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 793E8162187C2F1E007A9F2F /* Main.storyboard */; };
+		793E8167187C2F1E007A9F2F /* ZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 793E8166187C2F1E007A9F2F /* ZViewController.m */; };
+		793E8169187C2F1E007A9F2F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 793E8168187C2F1E007A9F2F /* Images.xcassets */; };
+		793E8170187C2F1E007A9F2F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 793E816F187C2F1E007A9F2F /* XCTest.framework */; };
+		793E8171187C2F1E007A9F2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 793E8150187C2F1E007A9F2F /* Foundation.framework */; };
+		793E8172187C2F1E007A9F2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 793E8154187C2F1E007A9F2F /* UIKit.framework */; };
+		793E817A187C2F1E007A9F2F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 793E8178187C2F1E007A9F2F /* InfoPlist.strings */; };
+		793E817C187C2F1E007A9F2F /* TriViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 793E817B187C2F1E007A9F2F /* TriViewControllerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		793E8173187C2F1E007A9F2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 793E8145187C2F1E007A9F2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 793E814C187C2F1E007A9F2F;
+			remoteInfo = TriViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		793E814D187C2F1E007A9F2F /* TriViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TriViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		793E8150187C2F1E007A9F2F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		793E8152187C2F1E007A9F2F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		793E8154187C2F1E007A9F2F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		793E8158187C2F1E007A9F2F /* TriViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TriViewController-Info.plist"; sourceTree = "<group>"; };
+		793E815A187C2F1E007A9F2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		793E815C187C2F1E007A9F2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		793E815E187C2F1E007A9F2F /* TriViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TriViewController-Prefix.pch"; sourceTree = "<group>"; };
+		793E815F187C2F1E007A9F2F /* ZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZAppDelegate.h; sourceTree = "<group>"; };
+		793E8160187C2F1E007A9F2F /* ZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZAppDelegate.m; sourceTree = "<group>"; };
+		793E8163187C2F1E007A9F2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		793E8165187C2F1E007A9F2F /* ZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZViewController.h; sourceTree = "<group>"; };
+		793E8166187C2F1E007A9F2F /* ZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZViewController.m; sourceTree = "<group>"; };
+		793E8168187C2F1E007A9F2F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		793E816E187C2F1E007A9F2F /* TriViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		793E816F187C2F1E007A9F2F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		793E8177187C2F1E007A9F2F /* TriViewControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TriViewControllerTests-Info.plist"; sourceTree = "<group>"; };
+		793E8179187C2F1E007A9F2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		793E817B187C2F1E007A9F2F /* TriViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TriViewControllerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		793E814A187C2F1E007A9F2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				793E8153187C2F1E007A9F2F /* CoreGraphics.framework in Frameworks */,
+				793E8155187C2F1E007A9F2F /* UIKit.framework in Frameworks */,
+				793E8151187C2F1E007A9F2F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		793E816B187C2F1E007A9F2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				793E8170187C2F1E007A9F2F /* XCTest.framework in Frameworks */,
+				793E8172187C2F1E007A9F2F /* UIKit.framework in Frameworks */,
+				793E8171187C2F1E007A9F2F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		793E8144187C2F1E007A9F2F = {
+			isa = PBXGroup;
+			children = (
+				793E8156187C2F1E007A9F2F /* TriViewController */,
+				793E8175187C2F1E007A9F2F /* TriViewControllerTests */,
+				793E814F187C2F1E007A9F2F /* Frameworks */,
+				793E814E187C2F1E007A9F2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		793E814E187C2F1E007A9F2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				793E814D187C2F1E007A9F2F /* TriViewController.app */,
+				793E816E187C2F1E007A9F2F /* TriViewControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		793E814F187C2F1E007A9F2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				793E8150187C2F1E007A9F2F /* Foundation.framework */,
+				793E8152187C2F1E007A9F2F /* CoreGraphics.framework */,
+				793E8154187C2F1E007A9F2F /* UIKit.framework */,
+				793E816F187C2F1E007A9F2F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		793E8156187C2F1E007A9F2F /* TriViewController */ = {
+			isa = PBXGroup;
+			children = (
+				793E815F187C2F1E007A9F2F /* ZAppDelegate.h */,
+				793E8160187C2F1E007A9F2F /* ZAppDelegate.m */,
+				793E8162187C2F1E007A9F2F /* Main.storyboard */,
+				793E8165187C2F1E007A9F2F /* ZViewController.h */,
+				793E8166187C2F1E007A9F2F /* ZViewController.m */,
+				793E8168187C2F1E007A9F2F /* Images.xcassets */,
+				793E8157187C2F1E007A9F2F /* Supporting Files */,
+			);
+			path = TriViewController;
+			sourceTree = "<group>";
+		};
+		793E8157187C2F1E007A9F2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				793E8158187C2F1E007A9F2F /* TriViewController-Info.plist */,
+				793E8159187C2F1E007A9F2F /* InfoPlist.strings */,
+				793E815C187C2F1E007A9F2F /* main.m */,
+				793E815E187C2F1E007A9F2F /* TriViewController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		793E8175187C2F1E007A9F2F /* TriViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				793E817B187C2F1E007A9F2F /* TriViewControllerTests.m */,
+				793E8176187C2F1E007A9F2F /* Supporting Files */,
+			);
+			path = TriViewControllerTests;
+			sourceTree = "<group>";
+		};
+		793E8176187C2F1E007A9F2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				793E8177187C2F1E007A9F2F /* TriViewControllerTests-Info.plist */,
+				793E8178187C2F1E007A9F2F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		793E814C187C2F1E007A9F2F /* TriViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 793E817F187C2F1E007A9F2F /* Build configuration list for PBXNativeTarget "TriViewController" */;
+			buildPhases = (
+				793E8149187C2F1E007A9F2F /* Sources */,
+				793E814A187C2F1E007A9F2F /* Frameworks */,
+				793E814B187C2F1E007A9F2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TriViewController;
+			productName = TriViewController;
+			productReference = 793E814D187C2F1E007A9F2F /* TriViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		793E816D187C2F1E007A9F2F /* TriViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 793E8182187C2F1E007A9F2F /* Build configuration list for PBXNativeTarget "TriViewControllerTests" */;
+			buildPhases = (
+				793E816A187C2F1E007A9F2F /* Sources */,
+				793E816B187C2F1E007A9F2F /* Frameworks */,
+				793E816C187C2F1E007A9F2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				793E8174187C2F1E007A9F2F /* PBXTargetDependency */,
+			);
+			name = TriViewControllerTests;
+			productName = TriViewControllerTests;
+			productReference = 793E816E187C2F1E007A9F2F /* TriViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		793E8145187C2F1E007A9F2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Z;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ayal Spitz";
+				TargetAttributes = {
+					793E816D187C2F1E007A9F2F = {
+						TestTargetID = 793E814C187C2F1E007A9F2F;
+					};
+				};
+			};
+			buildConfigurationList = 793E8148187C2F1E007A9F2F /* Build configuration list for PBXProject "TriViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 793E8144187C2F1E007A9F2F;
+			productRefGroup = 793E814E187C2F1E007A9F2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				793E814C187C2F1E007A9F2F /* TriViewController */,
+				793E816D187C2F1E007A9F2F /* TriViewControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		793E814B187C2F1E007A9F2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				793E8169187C2F1E007A9F2F /* Images.xcassets in Resources */,
+				793E815B187C2F1E007A9F2F /* InfoPlist.strings in Resources */,
+				793E8164187C2F1E007A9F2F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		793E816C187C2F1E007A9F2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				793E817A187C2F1E007A9F2F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		793E8149187C2F1E007A9F2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				793E815D187C2F1E007A9F2F /* main.m in Sources */,
+				793E8167187C2F1E007A9F2F /* ZViewController.m in Sources */,
+				793E8161187C2F1E007A9F2F /* ZAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		793E816A187C2F1E007A9F2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				793E817C187C2F1E007A9F2F /* TriViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		793E8174187C2F1E007A9F2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 793E814C187C2F1E007A9F2F /* TriViewController */;
+			targetProxy = 793E8173187C2F1E007A9F2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		793E8159187C2F1E007A9F2F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				793E815A187C2F1E007A9F2F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		793E8162187C2F1E007A9F2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				793E8163187C2F1E007A9F2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		793E8178187C2F1E007A9F2F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				793E8179187C2F1E007A9F2F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		793E817D187C2F1E007A9F2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		793E817E187C2F1E007A9F2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		793E8180187C2F1E007A9F2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TriViewController/TriViewController-Prefix.pch";
+				INFOPLIST_FILE = "TriViewController/TriViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		793E8181187C2F1E007A9F2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TriViewController/TriViewController-Prefix.pch";
+				INFOPLIST_FILE = "TriViewController/TriViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		793E8183187C2F1E007A9F2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TriViewController.app/TriViewController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TriViewController/TriViewController-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TriViewControllerTests/TriViewControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		793E8184187C2F1E007A9F2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TriViewController.app/TriViewController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TriViewController/TriViewController-Prefix.pch";
+				INFOPLIST_FILE = "TriViewControllerTests/TriViewControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		793E8148187C2F1E007A9F2F /* Build configuration list for PBXProject "TriViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				793E817D187C2F1E007A9F2F /* Debug */,
+				793E817E187C2F1E007A9F2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		793E817F187C2F1E007A9F2F /* Build configuration list for PBXNativeTarget "TriViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				793E8180187C2F1E007A9F2F /* Debug */,
+				793E8181187C2F1E007A9F2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		793E8182187C2F1E007A9F2F /* Build configuration list for PBXNativeTarget "TriViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				793E8183187C2F1E007A9F2F /* Debug */,
+				793E8184187C2F1E007A9F2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 793E8145187C2F1E007A9F2F /* Project object */;
+}
